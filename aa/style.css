@@ -1,0 +1,98 @@
+body {
+   background-color: aliceblue;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+.text-gradient {
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ffcccc, #cc99ff, #99cc99, #ffcc99);
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientMove 5s linear infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 200% 200%;
+    }
+}
+
+.textoPrincipal{
+    display: inline-flex;
+    justify-content: center;
+    width: 50%;
+    padding: 9%;
+    font-size: 2.5rem;
+}
+
+
+.linha-vertical {
+    height: 500px;
+    border-left: 1px solid;
+    color: #141414;
+  }
+
+
+.botoes{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+#login{
+    border: 1px solid;
+    color: #141414;
+    background-color: aliceblue;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 10px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+#login:hover{
+    transition: 1s;
+    background-color: #cc99ff;
+    color: aliceblue;
+    border-color: #141414;
+}
+
+
+#criarConta{
+    border: 1px solid;
+    color: #141414;
+    background-color: aliceblue;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 10px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+#criarConta:hover{
+    transition: 1s;
+    background-color: #99cc99;
+    color: aliceblue;
+    border-color: #141414;
+}
+
+.esqueci{
+    display: flex;
+    justify-content: center;
+    color: #141414;
+    font-size: 1rem;
+}
+
+
+.esqueci:hover{
+    color: #5a6dd4;
+    transition: 2s;
+}
