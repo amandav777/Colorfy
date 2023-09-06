@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,8 @@
     <title>Colorfy</title>
 </head>
 <body>
+
+    <div class="container">
         <div id="logoETexto"><p>Colorfy</p></div>
 
         <div class="textoPrincipal"> <h1 class="text-gradient">Colorindo o mundo com códigos.</h1>
@@ -18,18 +20,31 @@
 
 
         <div class="botoes">
-            <button id="login">
-                Já possuo conta
-            </button>
-            <button id="criarConta">
-                Criar cadastro
-            </button>
+            <form method="post" class="formLogin">
+
+            <input type="email" id="email" name="email" placeholder="Insira seu e-mail" >
+
+            <div class="senhaOlho">
+            <input type="password" id="senha" name="senha" placeholder="Insira sua senha">
+            <span class="password-toggle" onclick="togglePassword()"><img src="imagens/eye.svg" alt=""></span></div>
+            
 
 
-        <p class="esqueci">Esqueci minha conta!</p>
+            <button type="submit" value="text" id="login">Logar!</button>
+
+            <!-- <button id="criarConta">Criar cadastro</button></span> -->
+        
+        
+
+
+
+            
+            </form>
         </div>
+        
+    </div>
 
+    <script src="script.js"></script>    
 
-    
 </body>
 </html>
