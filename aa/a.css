@@ -3,10 +3,14 @@ body {
 
 }
 
-.main-head{
-    height: 150px;
-    background: #FFF;
-   
+
+.logoSuperior{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 10%;
+
+
 }
 
  .container {
@@ -66,9 +70,9 @@ body {
 .titulo{
     margin-top: 30%;
     width: 50%;
-    padding: 60px;
     color: #fff;
-    font-size: larger;
+    font-size: 30px;
+    background-color: aqua;
 }
 
 
