@@ -1,0 +1,148 @@
+/* @extend display-flex; */
+display-flex, .display-flex, .display-flex-center, .signup-content, .signin-content, .social-login, .socials {
+  display: flex;
+  display: -webkit-flex; }
+
+h2 {
+  font-weight: bold;
+  color: #222;
+  font-size: 2rem; }
+
+.main {
+  padding: 150px;
+}
+
+body {
+  font-size: 1rem;
+  color: #222;
+  font-family: 'Montserrat', sans-serif; 
+  overflow-y: hidden; 
+  background-image: url(/imagens/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+  
+#logoSuperior{
+  width: 10%;
+  margin: 20px;
+}
+
+
+.container {
+  width: 900px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+.signup {
+  margin-bottom: 150px; }
+
+.signup-content {
+  justify-content: c;
+  padding: 75px 0;}
+
+.signup-form, .signup-image, .signin-form, .signin-image {
+  width: 50%;
+  font-family: 'Montserrat', sans-serif; }
+
+.signup-image {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-title {
+  margin-bottom: 33px; }
+
+
+.form-submit {
+  display: inline-block;
+  background: #bf84e4;
+  color: #fff;
+  border-bottom: none;
+  width: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif; }
+  
+  .form-submit:hover {
+    background-color: #a36ac7;
+    color: aliceblue;
+    border-color: #141414;
+
+  }
+
+
+.term-service {
+  font-size: 1rem;
+  color: #222; }
+
+.signup-image-link{
+  font-size: 1rem;
+  color: #222; }
+
+
+.signup-form {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 34px; }
+
+.register-form {
+  width: 100%; }
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden; }
+  .form-group:last-child {
+    margin-bottom: 0px; }
+
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  box-sizing: border-box; 
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+
+.agree-term {
+  display: inline-block;
+  width: auto; }
+
+
+.label-agree-term {
+  position: relative;
+  top: 0%;
+  transform: translateY(0);}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: calc( 100% - 30px);
+    max-width: 100%; } }
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px; } }
+@media screen and (max-width: 768px) {
+  .signup-content, .signin-content {
+    flex-direction: column;
+    justify-content: center;}
+
+  .signup-form {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding: 0 30px; }}
+
+#imgSignUp{
+  width: 350px;
+  margin-top: 5%;
+}
+
