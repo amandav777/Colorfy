@@ -1,2 +1,2 @@
 # Colorfy
-Trabalho para a aula de DevWeb. 
+Projeto criado utilizando HTML, CSS e JS, com um template do Bootstrap e alterado conforme as necessidades.
