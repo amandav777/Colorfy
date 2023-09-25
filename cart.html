@@ -26,18 +26,18 @@
           <!-- Top Nav -->
           <div class="col-12 py-2 bg-blue d-md-block d-none">
             <div class="row">
-                <div class="col-auto">
-                    <ul class="top-nav" >
-                        <li>
-                            <a href="register.html"><i class="fas fa-user-edit me-2"></i>Registre-se</a>
-                        </li>
-                        <li>
-                            <a href="login.html"><i class="fas fa-sign-in-alt me-2"></i>Login</a>
-                        </li>
-                    </ul>
-                </div>
+              <div class="col-auto">
+                <ul class="top-nav">
+                  <li>
+                    <a href="register.html"><i class="fas fa-user-edit me-2"></i>Registre-se</a>
+                  </li>
+                  <li>
+                    <a href="login.html"><i class="fas fa-sign-in-alt me-2"></i>Login</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </div>
           <!-- Top Nav -->
 
           <div class=" bg-white pt-4">
@@ -47,7 +47,7 @@
 
                   <a href="./index.html">
 
-                  <img src="./images/colorfyPreto.png" width="150" alt=""> </a>
+                    <img src="./images/colorfyPreto.png" width="150" alt=""> </a>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@
                     <li class="nav-item">
                       <a class="nav-link" href="category.html" id="electronics">Produtos</a>
 
-                  </li>
+                    </li>
                     <li class="nav-item active">
                       <a class="nav-link" href="aboutUs.html">Sobre nós <span class="sr-only"></span></a>
                     </li>
@@ -161,9 +161,9 @@
                   <div class="col-12 text-right">
                     <button class="btn btn-outline-primary me-3" type="submit">
                       <a href="./category.html">
-                      Adicionar mais itens</a>
+                        Adicionar mais itens</a>
                     </button>
-                    <a href="./index.html" class="btn btn-outline-success">Finalizar compra</a>
+                    <a href="./index.html" class="btn btn-outline-success" onclick="compra()">Finalizar compra</a>
                   </div>
                 </form>
               </div>
@@ -177,55 +177,63 @@
         <!-- Footer -->
         <footer class="row">
           <div class="holo text-white pb-3 pt-4">
-              <div class="row">
-                  <div class="col-lg-2 col-sm-4 text-center text-sm-left mb-sm-0 mb-3 mt-3">
-                      <div class="row">
-                          <div class="col-12">
-                              <div class="footer-logo">
-                                  <img src="./images/colorfy branco.png" width="150" alt="" />
-                              </div>
-                          </div>
-                          <div class="col-12">
-                           
-                          </div>
-                      </div>
+            <div class="row">
+              <div class="col-lg-2 col-sm-4 text-center text-sm-left mb-sm-0 mb-3 mt-3">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="footer-logo">
+                      <img src="./images/colorfy branco.png" width="150" alt="" />
+                    </div>
                   </div>
+                  <div class="col-12">
 
-                  <div class="col-lg-2 col-sm-3 col-5 ms-lg-auto ms-sm-0 ms-auto mb-sm-0 mb-3">
-                      <div class="row">
-                          <div class="col-12 text-uppercase">
-                              <h4>Links</h4>
-                          </div>
-                          <div class="col-12">
-                              <ul class="footer-nav">
-                                  <li>
-                                      <a href="./index.html">Home</a>
-                                  </li>
-                                  <li>
-                                      <a href="./product.html">Produtos</a>
-                                  </li>
-                                  <li>
-                                      <a href="./aboutUs.html">Sobre nós</a>
-                                  </li>
-                              </ul>
-                          </div>
-                      </div>
                   </div>
+                </div>
               </div>
-          </div>
-      </footer>
-  </div>
-</div>
 
-        <!-- Footer -->
+              <div class="col-lg-2 col-sm-3 col-5 ms-lg-auto ms-sm-0 ms-auto mb-sm-0 mb-3">
+                <div class="row">
+                  <div class="col-12 text-uppercase">
+                    <h4>Links</h4>
+                  </div>
+                  <div class="col-12">
+                    <ul class="footer-nav">
+                      <li>
+                        <a href="./index.html">Home</a>
+                      </li>
+                      <li>
+                        <a href="./product.html">Produtos</a>
+                      </li>
+                      <li>
+                        <a href="./aboutUs.html">Sobre nós</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
+
+    <!-- Footer -->
+  </div>
+  </div>
   </div>
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
+
+
+<script>
+    function compra(){
+       alert('Compra efetuada! Verifique seu e-mail.');
+    }
+</script>
+
 
 </html>
 
@@ -242,7 +250,7 @@
     width: 20%;
   }
 
-  .bg-blue{
+  .bg-blue {
     background-color: #99b1ff;
   }
 
